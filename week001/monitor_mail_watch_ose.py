@@ -2,7 +2,7 @@
 from __future__ import print_function
 
 '''
-Monitoring until Oasis Monitoring is confirmed
+Monitoring until YourMonitoring Monitoring is confirmed
 '''
 
 import argparse
@@ -22,7 +22,7 @@ def get_args():
  
     parser = argparse.ArgumentParser(
         description='''
-This script is run by cron to double check Oasis monitoring or 
+This script is run by cron to double check YourMonitoring monitoring or 
 can be called by hand to monitor pods and cluster health.
 
 This script calls several monitoring scripts and if there are
